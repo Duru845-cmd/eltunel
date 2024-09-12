@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+}
+.header1{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    padding: 1%;
+}
+.header1 h1{
+    color:#011c35;
+    text-align: right;
+    font-family: cursive;
+    text-shadow: 0px 2px 8px;
+    font-size: 250%;
+
+} 
+.header1 div{
+    text-align: right;
+    align-content: center;
+    a{
+        padding-right: 4%;
+        text-decoration: none;
+    }
+}
+.header1 input{
+    border: 2px solid black;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 100%;
+    height: 40%;
+    width: 25%;
+}
+.header2{
+    background-color: #e0e0e0;
+    
+}
+.header2 nav{
+    text-align: center;
+    padding: 1%;
+    a{
+        color: #011c35;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        padding-right: 4%;
+    }
+}
+
+.img_portada{
+    /*altura*/
+    height: 500px;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img_portada p{
+    color: white;
+    text-align: center;
+    font-size: 400%;
+}
+.img_portada p+br+p{
+    font-size: 200%;
+}
+
+.recomendaciones{
+    align-items: center;
+    h2{
+        padding: 60px;
+        color: #011c35;
+        font-size: 250%;
+    }
+}
+.recomendaciones div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+}
+.recomendaciones a{
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    p{
+        padding: 1.5%;
+    }
+    button{
+        padding: 1%;
+        color: white;
+        background-color: #333;
+        border: 2px solid #444;
+    }
+}
+.libros {
+   
+    align-items: center;
+    h2{
+        padding: 50px;
+        color: #011c35;
+        font-size: 270%;
+    }
+}
+.libros div{
+
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+}
+.libros a{
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    p{
+        padding: 1.5%;
+    }
+    button{
+        padding: 1%;
+        background-color: #333;
+        border: 2px solid #444;
+        color: white;
+    }
+}
+.conocenos{     
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 5%;
+}
+.conocenos div {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.conocenos div h2{
+    padding: 20px;
+    color: #011c35;
+    font-size: 250%;
+}
+.conocenos div p{
+    font-size: 20px;
+}
+.conocenos div h3{
+    text-align: center;
+    color: #011c35;
+    font-size: 150%;
+    
+}
+.conocenos img {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    
+}
+
+footer .division{
+    background-color:  #e0e0e0;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+}
+
+.eltunel {
+    margin: 25px;
+    color: rgb(42, 40, 40);
+    p{
+        font-size: 20px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding-top: 10px;
+        
+    }
+    li{
+        padding: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #011c35;
+
+    }
+
+}
+.informacion{
+    margin: 25px;
+    color: rgb(42, 40, 40);
+    
+    ul {
+        list-style-type: none;
+        padding-top: 15px;
+    }
+    li{
+        padding: 5px;
+    }
+    a{
+        text-decoration: none;
+        color: #011c35;
+    }
+
+}
+.suscribete{
+    margin: 25px;
+    color: rgb(42, 40, 40);
+    h3{
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    input{
+        border: 2px solid #011c35;
+        border-radius: 6px;
+        width: 70%;
+        height: 10%;
+        font-size: 150%;
+    }
+    button{
+        padding: 1%;
+        background-color: #333;
+        border: 2px solid #444;
+        color: white;
+        cursor: pointer;
+    }
+}
